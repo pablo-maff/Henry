@@ -1,0 +1,36 @@
+h1 {
+  color: white;
+}
+
+h3 {
+  color:white;
+}
+
+h4 {
+  color:white;
+}
+
+img {
+  width: 400px;
+}
+
+body {
+  background-image: url("https://www.cucinare.tv/wp-content/uploads/2019/07/Carb%C3%B3n-vs-le%C3%B1a.jpg");
+}
+
+span {
+  color:white
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: lightblue;
+  padding: 50px;
+  border: 6px solid orange;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
