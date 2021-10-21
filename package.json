@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "eslint": "^7.14.0",
-    "jest": "^26.6.3",
+    "jest": "^27.3.1",
     "node-fetch": "^2.6.1",
     "prompts": "^2.4.0"
   },
@@ -23,5 +23,8 @@
   "license": "ISC",
   "jest": {
     "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "set-value": "^4.1.0"
   }
 }

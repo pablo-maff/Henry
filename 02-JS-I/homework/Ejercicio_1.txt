@@ -1,0 +1,77 @@
+Ejercicio 1.
+
+	1. Variables
+	2. Strings
+	3. Funciones (argumentos, `return`)
+	4. Declaraciones `if`
+	5. Valores booleanos (`true`, `false`)
+
+
+1. Variables:
+
+Una variable sirve para almacenar cualquier valor o tipo de dato en la memoria
+del programa para luego poder manipularlo de la forma que queramos sin perder
+la informacion. Por ej: var miVariable = 4 almacenara el numero 4 en miVariable.
+
+
+2. Strings:
+
+Una string es texto, puede incluir cualquier caracter que queramos, siempre va
+rodeada por comillas ('' o ""). Por ej:
+var miString = "Esta es mi string numero 1."
+
+
+3. Funciones:
+
+Las funciones sirven para predefinir una accion o conjunto de acciones que
+queremos que el programa realice. Una funcion luego puede ser invocada
+facilmente ayudandonos a no tener que escribir el codigo de la misma una y otra
+vez a lo largo de nuestro programa. Asi logrando un programa mas ordenado y mas
+facil de desarrollar.
+Por ej: En un programa en el que estoy trabajando necesito obtener el resultado
+de una suma muchas veces, puedo escribir una funcion que tome a los numeros como
+argumentos y devuelva (return) el resultado de la suma de los mismos.
+
+function suma(x,y) {
+  return(x+y)
+}
+
+Cuando necesite usarla solo escribire:
+
+var numSumado = suma(2,3)
+
+El resultado sera que mi variable "numSumado" almacenara un 5.
+
+
+4. Declaraciones 'if':
+
+Las declaraciones 'if' nos sirven para establecer un control de flujo en el
+programa. Esto quiere decir que cuando el programa llegue al punto donde hay un
+'if' statement, si la condicion 'if' es cierta realizara una accion
+predeterminada y si la condicion 'if' es falsa realizara otra accion
+predeterminada. Por ej:
+
+var miNumero = 4
+
+if (miNumero === 4) {
+    console.log("Mi numero es 4")
+} else {
+    console.log("Mi numero no es 4")
+}
+
+Cada vez que la variable 'miNumero' contenga el valor 4, el programa imprimira
+"Mi numero es 4". Cuando 'miNumero' no sea 4, el programa imprimira "Mi numero
+no es 4".
+
+
+5. Valores booleanos:
+
+Los valores booleanos son 'true' (verdadero) o 'false' (falso). Estos valores
+son la piedra fundamental de la programacion, ya que representandolos
+en el lenguaje que hablan las computadoras en su nivel mas bajo, el cual es el
+lenguaje binario, serian 'false' = 0 y 'true' = 1.
+
+En el ejemplo anterior sobre los 'if' statements, cuando el programa evalua la
+expresion 'if', este decide que hacer utilizando valores booleanos. Si la
+condicion es 'true' ejecuta el bloque de codigo correspondiente al 'if'. Si la
+condicion es 'false' ejecuta el bloque de codigo correspondiente al 'else'.
