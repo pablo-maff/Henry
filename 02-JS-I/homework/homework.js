@@ -13,7 +13,7 @@ const nuevoBool = true;
 const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -35,25 +35,25 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-    return(x+y);
+    return x+y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-    return(x-y);
+    return x-y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-    return(x*y)
+    return x*y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-    return(x/y)
+    return x/y;
 }
 
 function sonIguales(x, y) {
@@ -61,10 +61,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (x === y) {
-      return true
-    } else {
-        return false
-    }
+      return true;
+    } else return false;
+
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -72,10 +71,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (str1.length === str2.length) {
-      return true
-    } else {
-        return false
-    }
+      return true;
+    } else return false;
 }
 
 function menosQueNoventa(num) {
@@ -83,10 +80,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (num < 90) {
-      return true
-    } else {
-        return false
-    }
+      return true;
+    } else return false;
+
 }
 
 function mayorQueCincuenta(num) {
@@ -94,16 +90,14 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (num > 50) {
-      return true
-    } else {
-        return false
-    }
+      return true;
+    } else return false;
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-    return(x%y);
+    return x%y;
 }
 
 function esPar(num) {
@@ -111,10 +105,8 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (num % 2 === 0) {
-      return true
-    } else {
-        return false
-    }
+      return true;
+    } else return false;
 }
 
 function esImpar(num) {
@@ -122,10 +114,8 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
     if (num % 2 === 1) {
-      return true
-    } else {
-        return false
-    }
+      return true;
+    } else return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -163,7 +153,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-    return Math.random()
+    return Math.random();
 }
 
 function esPositivo(numero) {
@@ -172,19 +162,17 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
     if (numero > 0) {
-      return "Es positivo"
+      return "Es positivo";
     } else if (numero < 0) {
-        return "Es negativo"
-    } else {
-        return false
-    }
+        return "Es negativo";
+    } else return false;
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-    return str + '!';
+    return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
@@ -218,7 +206,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-    return base * altura / 2
+    return base * altura / 2;
 }
 
 
@@ -226,7 +214,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-    return euro * 1.2
+    return euro * 1.2;
 }
 
 
@@ -235,12 +223,10 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
-    vocales = ['a','e','i','o','u']
+    var vocales = ['a','e','i','o','u']
     if (letra.length === 1 && vocales.includes(letra)) {
-      return "Es vocal"
-    } else {
-        return "Dato incorrecto"
-    }
+      return "Es vocal";
+    } else return "Dato incorrecto";
 }
 
 
