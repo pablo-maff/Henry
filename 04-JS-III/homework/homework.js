@@ -151,18 +151,18 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
+
     var numero = n.toString();
     return numero[0] == 9;
     return false;
 
-    /*
+/*
+    var entero = Math.trunc(n / 10) //trunc toma la parte entera de un float.
     while(entero > 9){
-      entero = Math.trunc(n / 10) //trunc toma la parte entera de un float.
   }
     if (entero === 9 || n === 9) return true;
     return false;
-    */
-
+*/
 }
 
 

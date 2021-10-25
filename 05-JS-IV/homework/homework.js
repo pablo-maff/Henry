@@ -6,6 +6,13 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+  var gato = {  
+    nombre : nombre,
+    edad : edad,
+    meow : function() {
+      return 'Meow!'}
+  }
+  return gato;
 }
 
 
@@ -31,7 +38,7 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
 }
 
 function eliminarPropiedad(objeto, unaPropiedad) {
-  // Elimina la propiedad de objeto cuyo nombre está pasado por el parametro unaPropiedad 
+  // Elimina la propiedad de objeto cuyo nombre está pasado por el parametro unaPropiedad
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
