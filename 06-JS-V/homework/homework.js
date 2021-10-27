@@ -39,8 +39,8 @@ function agregarStringInvertida() {
   // Pista: Necesitarás usar "this" dentro de "reverse"
       String.prototype.reverse = function(){
         var rev = '';
-        for (let i = this.length; i >= 0; i--) {
-          rev += this.charAt(i);
+        for (let i = this.length - 1; i >= 0; i--) {
+          rev = rev + this[i]
       }
         return rev;
     }
@@ -81,7 +81,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-    return new Persona('Juan', 'Perez', 22, 'Saavedra 123')
+    return new Persona(nombre, apellido, edad, dir)
 }
 
 function agregarMetodo() {
