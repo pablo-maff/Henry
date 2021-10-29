@@ -49,11 +49,9 @@ function map(array, cb) {
   //Tu código:multiplicarDosNumeros);
 
 // .reduce funciona en cualquier tipo de datos
-  nuevo = [];
-  const callb = array.map(function(elemento) {
-  nuevo.push(cb(elemento));
+  return array.map(function(elemento) {
+    return cb(elemento);
   });
-  return nuevo;
 }
 
 function filter(array) {
